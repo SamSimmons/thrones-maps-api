@@ -4,16 +4,25 @@
   "description": "API for game of thrones maps]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SamSimmons/thrones-maps-api.git"
-  },
-  "author": "",
+  "repository": "https://github.com/SamSimmons/thrones-maps-api.git",
+  "author": "sam simmons <samuel.j.simmons@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SamSimmons/thrones-maps-api/issues"
   },
-  "homepage": "https://github.com/SamSimmons/thrones-maps-api#readme"
+  "homepage": "https://github.com/SamSimmons/thrones-maps-api#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "joi": "^13.0.1",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-joi-validate": "^0.5.1",
+    "koa-router": "^7.2.1",
+    "pg": "^7.3.0",
+    "standard": "^10.0.3",
+    "winston": "^2.4.0"
+  }
 }
